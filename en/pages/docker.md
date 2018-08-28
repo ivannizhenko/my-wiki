@@ -95,8 +95,9 @@ Pull an image from Docker Hub and start a container
 
 ##### IP
 Docker is configured to use the default machine with IP 192.168.99.100
-	docker-machine ip
-	192.168.99.100
+
+    docker-machine ip
+        192.168.99.100
 
 Use Machine to run Docker containers.
 To run a Docker container, you:
@@ -119,8 +120,8 @@ The examples [here](https://docs.docker.com/machine/get-started/#use-machine-to-
 	docker-compose up --build
 
 ##### Stop the application
-    docker-compose down	    from within your project directory in the second terminal, or
-    CTRL+C                  in the original terminal where you started the app
+    docker-compose down	     from within your project directory in the second terminal, or
+    CTRL+C                          in the original terminal where you started the app
 
 ## Volumes
 
